@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Logo } from './Logo';
 
 const Navbar = () => (
-  <div className="w-screen mx-auto px-3 py-6 fixed top-0">
+  <div className="w-screen mx-auto px-3 py-6 fixed top-0 z-50">
     <nav className="max-w-screen-lg mx-auto">
       <ul className="navbar flex justify-between items-center font-medium text-xl text-gray-800">
         <li>
