@@ -4,7 +4,7 @@ import { Base } from '../templates/Base';
 
 const Index = () => (
   <SimpleReactLightbox>
-    <Base />;
+    <Base />
   </SimpleReactLightbox>
 );
 

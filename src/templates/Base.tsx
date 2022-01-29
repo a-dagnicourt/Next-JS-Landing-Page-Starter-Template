@@ -1,11 +1,12 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
-import { Banner } from './Banner';
+import { Faq } from './Faq';
 import { Footer } from './Footer';
+import { Gallery } from './Gallery';
 import { Hero } from './Hero';
-import { Gallery } from './ImageGallery';
 import { Navbar } from './Navbar';
-import { VerticalFeatures } from './VerticalFeatures';
+import { Roadmap } from './Roadmap';
+import { Team } from './Team';
 
 const Base = () => (
   <div className="antialiased text-gray-600">
@@ -13,8 +14,9 @@ const Base = () => (
     <Hero />
     <Navbar />
     <Gallery />
-    <VerticalFeatures />
-    <Banner />
+    <Faq />
+    <Roadmap />
+    <Team />
     <Footer />
   </div>
 );

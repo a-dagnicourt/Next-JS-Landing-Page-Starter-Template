@@ -25,59 +25,60 @@ const options = {
 
 const Gallery = () => {
   return (
-    <section className="h-screen flex flex-col justify-center items-center bg-gray-100 mx-auto px-3 py-6 text-center ">
+    <section className="flex flex-col justify-center items-center bg-gray-900 mx-auto px-3 py-6 text-center ">
+      <h2 className="text-6xl">Gallery</h2>
       <SRLWrapper options={options}>
         <div className="grid grid-cols-3 gap-2">
           <Image
-            src="/assets/images/temp/54.jpg"
+            src="/assets/images/ange.jpg"
             width={300}
             height={300}
             alt="nope"
           />
           <Image
-            src="/assets/images/temp/ganesh-tuskers.jpg"
+            src="/assets/images/anubis_preview.jpg"
             width={300}
             height={300}
             alt="nope"
           />
           <Image
-            src="/assets/images/temp/king-tusker.jpg"
+            src="/assets/images/black_preview.jpg"
             width={300}
             height={300}
             alt="nope"
           />
           <Image
-            src="/assets/images/temp/samurai-suit-tusker.jpg"
+            src="/assets/images/black_preview.jpg"
             width={300}
             height={300}
             alt="nope"
           />
           <Image
-            src="/assets/images/temp/Tuskers_Basket_01.jpg"
+            src="/assets/images/ange.jpg"
             width={300}
             height={300}
             alt="nope"
           />
           <Image
-            src="/assets/images/temp/Tuskers_Doctor_01.jpg"
+            src="/assets/images/anubis_preview.jpg"
             width={300}
             height={300}
             alt="nope"
           />
           <Image
-            src="/assets/images/temp/tuskers-mixed-08.jpg"
+            src="/assets/images/ange.jpg"
             width={300}
             height={300}
             alt="nope"
           />
           <Image
-            src="/assets/images/temp/tuskers-solana-01.jpg"
+            src="/assets/images/anubis_preview.jpg"
             width={300}
             height={300}
             alt="nope"
           />
           <Image
-            src="/assets/images/temp/tutantusker.jpeg"
+            src="/assets/images/black_preview.jpg"
             width={300}
             height={300}
             alt="nope"

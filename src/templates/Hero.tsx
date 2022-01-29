@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Button } from '../button/Button';
 
 const Hero = () => (
-  <header className="h-screen flex flex-col justify-center items-center bg-gray-100 mx-auto px-3 py-6 text-center ">
+  <header className="h-screen flex flex-col justify-center items-center  mx-auto px-3 py-6 text-center bg-hero-pattern bg-center bg-cover">
     <h1 className="text-5xl text-gray-900 font-bold whitespace-pre-line leading-hero">
       Lorem
     </h1>

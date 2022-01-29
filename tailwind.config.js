@@ -41,6 +41,9 @@ module.exports = {
       lineHeight: {
         hero: '4.5rem',
       },
+      backgroundImage: {
+        'hero-pattern': "url('/assets/images/mint_preview-2.jpg')",
+      },
     },
   },
   variants: {},
