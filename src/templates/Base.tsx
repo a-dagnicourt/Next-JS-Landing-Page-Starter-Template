@@ -1,3 +1,4 @@
+import { Divider } from '../components/Divider';
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import { Faq } from './Faq';
@@ -13,10 +14,15 @@ const Base = () => (
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
     <Navbar />
+    <Divider bgColor="bg-red-900" />
     <Gallery />
+    <Divider bgColor="bg-red-800" />
     <Faq />
+    <Divider bgColor="bg-red-700" />
     <Roadmap />
+    <Divider bgColor="bg-red-800" />
     <Team />
+    <Divider bgColor="bg-red-900" />
     <Footer />
   </div>
 );

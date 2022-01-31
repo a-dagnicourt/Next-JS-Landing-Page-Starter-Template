@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Button } from '../button/Button';
+import { Button } from '../components/Button';
 
 const Hero = () => (
   <header className="h-screen flex flex-col justify-center items-center  mx-auto px-3 py-6 text-center bg-hero-pattern bg-center bg-cover">
