@@ -8,7 +8,7 @@ const Divider = (props: IDividerProps) => {
       <div
         className={`${props.bgColor} w-full h-52 absolute -top-24`}
         style={{
-          clipPath: 'polygon(0 30%, 100% 0%, 100% 70%, 0 100%)',
+          clipPath: 'polygon(0 0%, 100% 30%, 100% 100%, 0% 70%)',
         }}
       />
     </div>

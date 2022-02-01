@@ -1,30 +1,42 @@
 import Link from 'next/link';
 
-import { Logo } from './Logo';
+import { Logo } from '../components/Logo';
 
 const Navbar = () => (
-  <div className="w-screen mx-auto px-3 py-6 fixed top-0 z-50">
+  <div className="w-screen mx-auto p-3 fixed top-0 z-50 bg-gray-900/75 drop-shadow">
     <nav className="max-w-screen-lg mx-auto">
-      <ul className="navbar flex justify-between items-center font-medium text-xl text-gray-300">
+      <ul className="navbar flex justify-between items-center space-x-5 font-medium text-xl text-gray-500  opacity-100">
         <li>
           <Link href="#gallery">
-            <a>Gallery</a>
+            <a className="font-title hover:text-red-800 transition duration-300 ease-in-out">
+              Gallery
+            </a>
           </Link>
         </li>
         <li>
           <Link href="#faq">
-            <a>FAQ</a>
+            <a className="font-title hover:text-red-800 transition duration-300 ease-in-out">
+              FAQ
+            </a>
           </Link>
         </li>
-        <Logo xl />
+        <Link href="/" passHref={true}>
+          <a>
+            <Logo />
+          </a>
+        </Link>
         <li>
           <Link href="#roadmap">
-            <a>Roadmap</a>
+            <a className="font-title hover:text-red-800 transition duration-300 ease-in-out">
+              Roadmap
+            </a>
           </Link>
         </li>
         <li>
           <Link href="#team">
-            <a>Team</a>
+            <a className="font-title hover:text-red-800 transition duration-300 ease-in-out">
+              Team
+            </a>
           </Link>
         </li>
       </ul>

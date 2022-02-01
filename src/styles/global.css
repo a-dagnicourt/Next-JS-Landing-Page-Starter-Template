@@ -5,3 +5,5 @@
 @tailwind utilities;
 
 @import "~react-image-gallery/styles/css/image-gallery.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@600&display=swap');

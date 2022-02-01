@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import { CenteredFooter } from '../components/footer/CenteredFooter';
-import { Logo } from './Logo';
+import { Logo } from '../components/Logo';
 
 const Footer = () => (
   <section className="flex flex-col justify-center items-center bg-gray-900 mx-auto px-3 py-6 text-center">

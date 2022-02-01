@@ -25,7 +25,10 @@ const options = {
 
 const Team = () => {
   return (
-    <section className="flex flex-col justify-center items-center bg-gray-800 mx-auto px-3 py-6 text-center">
+    <section
+      id="team"
+      className="flex flex-col justify-center items-center bg-gray-800 mx-auto px-3 py-6 text-center"
+    >
       <h2 className="text-6xl">Team</h2>
       <SRLWrapper options={options}>
         <div className="grid grid-cols-3 gap-2">

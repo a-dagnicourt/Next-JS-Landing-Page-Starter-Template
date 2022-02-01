@@ -25,7 +25,10 @@ const options = {
 
 const Gallery = () => {
   return (
-    <section className="flex flex-col justify-center items-center bg-gray-900 mx-auto px-3 py-6 text-center ">
+    <section
+      id="gallery"
+      className="flex flex-col justify-center items-center bg-gray-900 mx-auto px-3 py-6 text-center "
+    >
       <h2 className="text-6xl">Gallery</h2>
       <SRLWrapper options={options}>
         <div className="grid grid-cols-3 gap-2">

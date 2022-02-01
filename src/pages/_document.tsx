@@ -6,8 +6,13 @@ import { AppConfig } from '../utils/AppConfig';
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang={AppConfig.locale}>
-        <Head />
+      <Html lang={AppConfig.locale} className="scroll-smooth">
+        <Head>
+          <link
+            href="https://fonts.googleapis.com/css?family=Spectral+SC&display=optional"
+            rel="stylesheet"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />

@@ -1,6 +1,9 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      title: ['Spectral SC', 'system-ui', 'sans-serif'],
+    },
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
@@ -43,6 +46,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('/assets/images/mint_preview-2.jpg')",
+      },
+      animation: {
+        'pulse-slow': 'pulse 9s linear infinite',
       },
     },
   },

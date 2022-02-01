@@ -1,5 +1,8 @@
 const Faq = () => (
-  <section className="flex flex-col items-center bg-gray-800 mx-auto px-3 py-6">
+  <section
+    id="faq"
+    className="flex flex-col items-center bg-gray-800 mx-auto px-3 py-6"
+  >
     <h2 className="text-6xl text-left">FAQ</h2>
     <div className="text-center">
       <h3>When is your mint day ?</h3>
