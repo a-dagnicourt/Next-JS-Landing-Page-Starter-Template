@@ -37,7 +37,7 @@ const Roadmap = () => {
       className="flex flex-col items-center bg-gray-700 mx-auto px-3 py-6 h-screen"
     >
       <h2 className="text-6xl text-left">Roadmap</h2>
-      <div style={{ width: '1000px', height: '1200px' }}>
+      <div style={{ width: '100%', height: '1200px' }}>
         <Chrono items={items} mode="VERTICAL_ALTERNATING" />
       </div>
     </section>
