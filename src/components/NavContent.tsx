@@ -45,21 +45,21 @@ const NavContent = () => (
     <ul className="navbar md:flex justify-between items-center md:space-x-5 md:space-y-0 space-y-5">
       <li className="flex justify-center">
         <Link href="#">
-          <a className="font-title hover:text-red-800 transition duration-300 ease-in-out">
+          <a className="font-title text-3xl hover:text-red-800 transition duration-300 ease-in-out">
             <FaDiscord />
           </a>
         </Link>
       </li>
       <li className="flex justify-center">
         <Link href="#">
-          <a className="font-title hover:text-red-800 transition duration-300 ease-in-out">
+          <a className="font-title text-3xl hover:text-red-800 transition duration-300 ease-in-out">
             <FaInstagram />
           </a>
         </Link>
       </li>
       <li className="flex justify-center">
         <Link href="#">
-          <a className="font-title hover:text-red-800 transition duration-300 ease-in-out">
+          <a className="font-title text-3xl hover:text-red-800 transition duration-300 ease-in-out">
             <FaTwitter />
           </a>
         </Link>

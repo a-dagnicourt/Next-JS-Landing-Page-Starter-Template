@@ -20,7 +20,7 @@ const Hero = () => (
 
       <Link href="#gallery">
         <a>
-          <HiChevronDoubleDown className="text-5xl text-gray-400 bg-red-900 rounded-full p-2 hover:bg-red-800 hover:text-gray-300 hover:translate-y-2 transition" />
+          <HiChevronDoubleDown className="text-5xl text-gray-400 bg-red-900 rounded-full p-2 hover:bg-red-800 hover:text-gray-300 animate-bounce-slow transition" />
         </a>
       </Link>
     </div>
