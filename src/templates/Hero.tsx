@@ -5,7 +5,7 @@ import { Fog } from '../components/Fog';
 import { AppConfig } from '../utils/AppConfig';
 
 const Hero = () => (
-  <header className="h-screen relative bg-hero-pattern bg-center bg-cover">
+  <header className="h-screen relative bg-gray-900 bg-hero-pattern bg-center bg-cover">
     <Fog />
     <div className="absolute bg-black/75 w-full h-full animate-pulse-slow" />
     <div className="absolute w-full h-full flex flex-col justify-around items-center mx-auto px-3 py-6 text-center">

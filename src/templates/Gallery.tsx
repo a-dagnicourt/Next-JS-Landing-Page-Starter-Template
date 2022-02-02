@@ -1,10 +1,9 @@
 import Image from 'next/image';
-// import ImageGallery from 'react-image-gallery';
 import { SRLWrapper } from 'simple-react-lightbox';
 
 const options = {
   settings: {
-    overlayColor: 'rgba(0, 0, 0, 0.5)',
+    overlayColor: 'rgba(0, 0, 0, 0.75)',
     autoplaySpeed: 1500,
     transitionSpeed: 900,
     hideControlsAfter: 3000,
@@ -27,10 +26,10 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="flex flex-col justify-center items-center bg-gray-900 mx-auto px-3 pt-24 pb-40 text-center"
+      className="flex flex-col justify-center items-center bg-gray-900 mx-auto px-6 pt-24 pb-40 text-center"
     >
       <div className="flex justify-start w-full mb-12">
-        <h2 className=" text-6xl text-left font-title border-r-8 border-red-900 pr-8 ml-8">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl text-left font-title border-r-8 border-red-900 pr-4 ml-4 md:pr-6 md:ml-6 lg:pr-8 lg:ml-8">
           Gallery
         </h2>
       </div>
@@ -101,15 +100,6 @@ const Gallery = () => {
           />
         </div>
       </SRLWrapper>
-      {/* <ImageGallery
-        items={items}
-        thumbnailPosition={'left'}
-        showPlayButton={false}
-        autoPlay={true}
-        slideDuration={300}
-        slideInterval={1300}
-        slideOnThumbnailOver={true}
-      /> */}
     </section>
   );
 };
