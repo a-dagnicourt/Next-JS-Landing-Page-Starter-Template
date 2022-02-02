@@ -1,14 +1,14 @@
 const Faq = () => (
   <section
     id="faq"
-    className="flex flex-col items-center space-y-10 bg-gray-800 mx-auto px-3 py-6 pt-24 pb-40"
+    className="flex flex-col items-center space-y-10 bg-gray-800 mx-auto pt-24 pb-40"
   >
     <div className="flex justify-start w-full mb-12">
       <h2 className="text-4xl md:text-5xl lg:text-6xl text-left font-title border-r-8 border-red-900 pr-4 ml-4 md:pr-6 md:ml-6 lg:pr-8 lg:ml-8">
         FAQ
       </h2>
     </div>
-    <div className="max-w-4xl space-y-8">
+    <div className="max-w-4xl space-y-8 px-6">
       <div className="text-left space-y-2">
         <h3 className="text-xl uppercase text-gray-200">
           <span className="border-r-4 border-red-900 pr-2 md:pr-4 lg:pr-6">

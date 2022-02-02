@@ -3,42 +3,70 @@ import { Chrono } from 'react-chrono';
 const Roadmap = () => {
   const items = [
     {
-      title: 'May 1940',
-      cardTitle: 'Dunkirk',
-      url: 'http://www.history.com',
-      cardSubtitle:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
+      title: 'March 2022',
+      cardTitle: 'Lorem Ipsum',
+      url: 'http://beastfightclub.com',
+      cardSubtitle: 'Lorem ipsum dolor',
       cardDetailedText:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas officia sapiente aliquid saepe ipsa suscipit possimus cum, recusandae accusantium nisi.',
     },
     {
-      title: 'May 1940',
-      cardTitle: 'Dunkirk',
-      url: 'http://www.history.com',
-      cardSubtitle:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
+      title: 'April 2022',
+      cardTitle: 'Lorem Ipsum',
+      url: 'http://beastfightclub.com',
+      cardSubtitle: 'Lorem ipsum dolor',
       cardDetailedText:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas officia sapiente aliquid saepe ipsa suscipit possimus cum, recusandae accusantium nisi.',
     },
     {
-      title: 'May 1940',
-      cardTitle: 'Dunkirk',
-      url: 'http://www.history.com',
-      cardSubtitle:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
+      title: 'June 2022',
+      cardTitle: 'Lorem Ipsum',
+      url: 'http://beastfightclub.com',
+      cardSubtitle: 'Lorem ipsum dolor',
       cardDetailedText:
-        'Men of the British Expeditionary Force (BEF) wade out to..',
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas officia sapiente aliquid saepe ipsa suscipit possimus cum, recusandae accusantium nisi.',
+    },
+    {
+      title: 'Q3 2022',
+      cardTitle: 'Lorem Ipsum',
+      url: 'http://beastfightclub.com',
+      cardSubtitle: 'Lorem ipsum dolor',
+      cardDetailedText:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas officia sapiente aliquid saepe ipsa suscipit possimus cum, recusandae accusantium nisi.',
+    },
+    {
+      title: 'Q4 2022',
+      cardTitle: 'Lorem Ipsum',
+      url: 'http://beastfightclub.com',
+      cardSubtitle: 'Lorem ipsum dolor',
+      cardDetailedText:
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas officia sapiente aliquid saepe ipsa suscipit possimus cum, recusandae accusantium nisi.',
     },
   ];
 
   return (
     <section
       id="roadmap"
-      className="flex flex-col items-center bg-gray-700 mx-auto px-3 py-6 h-screen"
+      className="flex flex-col items-center bg-gray-700 mx-auto py-6 min-h-screen pt-24 pb-40"
     >
-      <h2 className="text-6xl text-left">Roadmap</h2>
-      <div style={{ width: '100%', height: '1200px' }}>
-        <Chrono items={items} mode="VERTICAL_ALTERNATING" />
+      <div className="flex justify-start w-full mb-12">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl text-left font-title border-r-8 border-red-900 pr-4 ml-4 md:pr-6 md:ml-6 lg:pr-8 lg:ml-8">
+          Roadmap
+        </h2>
+      </div>
+      <div className="max-w-4xl">
+        <Chrono
+          items={items}
+          hideControls
+          mode="VERTICAL_ALTERNATING"
+          theme={{
+            primary: 'rgb(127 29 29)',
+            secondary: 'rgb(189 189 189)',
+            cardBgColor: 'rgb(38 38 38)',
+            cardForeColor: 'rgb(189 189 189)',
+            titleColor: 'rgb(127 29 29)',
+          }}
+        />
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="flex flex-col justify-center items-center bg-gray-900 mx-auto px-6 pt-24 pb-40 text-center"
+      className="flex flex-col justify-center items-center bg-gray-900 mx-auto py-6 pt-24 pb-40 text-center"
     >
       <div className="flex justify-start w-full mb-12">
         <h2 className="text-4xl md:text-5xl lg:text-6xl text-left font-title border-r-8 border-red-900 pr-4 ml-4 md:pr-6 md:ml-6 lg:pr-8 lg:ml-8">
@@ -34,7 +34,7 @@ const Gallery = () => {
         </h2>
       </div>
       <SRLWrapper options={options}>
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-3 gap-2 px-6">
           <Image
             src="/assets/images/ange.jpg"
             width={300}
